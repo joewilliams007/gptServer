@@ -10,7 +10,7 @@ app.listen(
 
 const api = new ChatGPTAPIBrowser({
     email: "johann.williams@gmx.de",
-    password: "johannw2004"
+    password: ""
 })
 await api.initSession()
 
